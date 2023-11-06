@@ -1,5 +1,5 @@
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
+import { Input } from "../ui/input";
+import { Button } from "../ui/button";
 import { Label } from "@radix-ui/react-label";
 import { cn } from "@/lib/utils";
 import { useState } from "react";

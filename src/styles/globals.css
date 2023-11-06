@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient_bg {
+background: radial-gradient(79.84% 99.84% at 32.27% 91.27%, rgba(31, 169, 17, 0.810119) 17.21%, #2F15D0 64.58%, rgba(0, 0, 0, 1) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.gradient_bg2 {
+  /*background: rgb(31,169,17);*/
+  background: radial-gradient(circle, rgba(31,169,17,0.81) 20%, rgba(47,21,208,1) 68%, rgba(0,0,0,1) 7%);
+}
+
+.hide_scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide_scrollbar::-webkit-scrollbar {
+  display: none;
+}
