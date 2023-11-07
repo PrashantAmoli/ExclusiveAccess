@@ -28,10 +28,12 @@ export const ExclusiveAccessForm = ({ className }) => {
     } else if (emailId.includes("@")) {
       toast.success("Thanks for signing up! We'll be in touch soon.");
 
+      // notify the user about redirection after 2.5sec
       setTimeout(() => {
         toast.info("Redirecting you to Loch App...");
       }, 2500);
 
+      // redirect to loch app after 4sec
       setTimeout(() => {
         router.push("https://app.loch.one/welcome/");
       }, 4000);
@@ -54,6 +56,7 @@ export const ExclusiveAccessForm = ({ className }) => {
           onSubmit={(e) => signUpForExclusiveAccess(e)}
           className="flex flex-col w-11/12 max-w-xs gap-3 "
         >
+          {/* shadCN UI components are used *NOT A LIBRARY, JUST AWESOME🔥 COMPONENTS* */}
           <Input
             type="email"
             name="email"

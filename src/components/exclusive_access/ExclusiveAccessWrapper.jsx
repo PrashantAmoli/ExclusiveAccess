@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 
+// The main Wrapper component to add the background gradient and other styles coresponding to left container
 export const ExclusiveAccessWrapper = ({ children, className }) => {
   return (
     <>

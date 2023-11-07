@@ -47,6 +47,7 @@ const NotificationsPreview = () => {
         </div>
 
         <div className="flex flex-row gap-10 overflow-scroll shrink-0 grow">
+          {/* Marquee works like magic */}
           <Marquee
             speed={50}
             pauseOnHover={true}
@@ -159,6 +160,7 @@ const NotificationsPreview = () => {
   );
 };
 
+// the middle section sign up for exclusive access page
 const DashboardPreview = () => {
   return (
     <>
