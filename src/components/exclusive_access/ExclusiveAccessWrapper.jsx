@@ -9,7 +9,7 @@ export const ExclusiveAccessWrapper = ({ children, className }) => {
           className
         )}
       >
-        <div className="flex flex-col w-full min-h-screen p-1 py-10 overflow-x-hidden overflow-y-scroll md:pr-0 md:gap-6">
+        <div className="flex flex-col w-full min-h-screen p-1 overflow-x-hidden overflow-y-scroll py-7 md:pr-0 md:gap-5">
           {children}
         </div>
 

@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -52,6 +53,11 @@ export default function Document() {
         <meta
           name="twitter:image"
           content="https://framerusercontent.com/images/DaBP3rf7HbH8IEFOjxcweyFs0.jpg"
+        />
+        <meta name="author" content="Loch" />
+        <meta
+          name="keywords"
+          content="Loch, crypto, cryptocurrency, wallet, wallets, aggregation, retail, investors, blockchains, privacy, anonymity, protected"
         />
       </Head>
 
