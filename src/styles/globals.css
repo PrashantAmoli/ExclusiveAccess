@@ -37,3 +37,12 @@
 .hide_scrollbar::-webkit-scrollbar {
   display: none;
 }
+/* Hide ALL scrollbars: left, right, center everyone, everywhere all at once... */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
