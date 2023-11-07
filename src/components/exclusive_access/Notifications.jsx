@@ -50,7 +50,7 @@ const NotificationsPreview = () => {
             className="rounded-l-lg"
             autoFill="true"
           >
-            <div className="flex flex-col justify-between gap-3 p-4 mx-3 bg-white border border-red-400 h-52 rounded-xl w-72">
+            <div className="flex flex-col justify-between gap-3 p-4 mx-3 bg-white h-52 rounded-xl w-72">
               <div className="flex flex-row items-start justify-between">
                 <Image
                   src={WidgetBellIcon}
@@ -72,7 +72,7 @@ const NotificationsPreview = () => {
               <Input type="email" placeholder="hello@gmail.com" />
             </div>
 
-            <div className="flex flex-col justify-between gap-3 p-4 mx-3 bg-white border border-red-400 h-52 rounded-xl w-72">
+            <div className="flex flex-col justify-between gap-3 p-4 mx-3 bg-white h-52 rounded-xl w-72">
               <div className="flex flex-row items-start justify-between">
                 <Image
                   src={BarChartIcon}
@@ -108,7 +108,7 @@ const NotificationsPreview = () => {
               </div>
             </div>
 
-            <div className="flex flex-col justify-between gap-3 p-4 mx-3 bg-white border border-red-400 h-52 rounded-xl w-72">
+            <div className="flex flex-col justify-between gap-3 p-4 mx-3 bg-white h-52 rounded-xl w-72">
               <div className="flex flex-row items-start justify-between">
                 <Image
                   src={ClockIcon}
