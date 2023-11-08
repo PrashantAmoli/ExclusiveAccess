@@ -51,9 +51,11 @@ const NotificationsPreview = () => {
           <Marquee
             speed={50}
             pauseOnHover={true}
-            className="mt-6 rounded-l-lg h-fit"
+            className="relative mt-6 rounded-l-lg h-fit"
             autoFill="true"
           >
+            <div className="absolute inset-0 z-10 bg-gradient-to-r from-black/30 via-transparent to to-black/30"></div>
+
             <div className="flex flex-col justify-between h-56 gap-3 p-4 mx-3 bg-gradient-to-b from-white via-blue-50 to-blue-100 rounded-xl w-72">
               <div className="flex flex-row items-start justify-between">
                 <Image

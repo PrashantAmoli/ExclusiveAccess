@@ -48,8 +48,9 @@ export const Testimonials = ({ children, className }) => {
               <Marquee
                 speed={30}
                 pauseOnHover={true}
-                className="rounded-l-lg shadow-inner h-fit"
+                className="w-full rounded-l-lg shadow-inner h-fit"
                 autoFill="true"
+                // direction="up"
               >
                 {!TestimonialsData
                   ? null
