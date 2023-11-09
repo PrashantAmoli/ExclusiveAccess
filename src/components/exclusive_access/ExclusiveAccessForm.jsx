@@ -67,7 +67,7 @@ export const ExclusiveAccessForm = ({ className }) => {
           />
 
           <Button type="submit" size="">
-            Submit
+            Get Started
           </Button>
         </form>
 
